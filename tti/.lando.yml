@@ -1,0 +1,4 @@
+name: tido-tech-international
+recipe: drupal8
+config:
+  webroot: .
