@@ -1,0 +1,13 @@
+name: tido-tech-international
+recipe: drupal8
+config:
+  webroot: www
+  php: '7.1'
+  database: 'mysql:5.7'
+services:
+  ttidb:
+    type: mysql
+    creds:
+      user: drupal8
+      password: drupal8
+      database: drupal8
